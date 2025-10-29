@@ -87,5 +87,5 @@
 
   setInterval(() => {
     setVideoSpeed();
-  }, 1000); // để tránh tốn tài nguyên CPU, thay vì 1ms
+  }, 100); // để tránh tốn tài nguyên CPU, thay vì 1ms
 })();
